@@ -1,3 +1,7 @@
+
+
+
+
 name = ["aplle", "orange", "banan"]
 price = [100, 70, 20]
 availability = [True, False, False]
