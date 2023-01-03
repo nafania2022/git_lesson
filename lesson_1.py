@@ -2,6 +2,8 @@ name = ["aplle", "orange", "banan"]
 price = [100, 70, 20]
 availability = [True, False, False]
 
+with open('text.txt') as f:
+    text = f.read()
 
 def merge_list_of_dict(**arrays):
     array_zip = zip(arrays["name"], arrays["price"])
@@ -17,5 +19,5 @@ for a, v  in array_dict.items():
     array_dict[a].append(availability[i])    
     i += 1
     
-    
+print(text)  
 print(array_dict)
